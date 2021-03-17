@@ -559,7 +559,8 @@ img {
     transition: opacity 250ms var(--timing-function), transform 250ms var(--timing-function);
     transform: translateY(100%);
 }
-.portfolio-item:hover .portfolio-card-description {
+.portfolio-card:hover .portfolio-card-description,
+.portfolio-card:focus .portfolio-card-description {
     opacity: 1;
     transform: translateY(0);
 }
